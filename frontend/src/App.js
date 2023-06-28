@@ -1,9 +1,13 @@
 import './App.css';
+import Cars from './components/Cars';
+import Header from './components/Header';
+
 
 function App() {
   return (
     <div>
-      <h1>Hello students!</h1>
+      <Header />
+      <Cars />
     </div>
   );
 }
