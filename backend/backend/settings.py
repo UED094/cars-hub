@@ -42,6 +42,10 @@ INSTALLED_APPS = [
     "cars",
 ]
 
+CORS_ALLOWED_ORIGINS = ["http://localhost:3000"]
+
+
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -125,5 +129,3 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
-CORS_ALLOWED_ORIGINS = ["http://localhost:3000"]
